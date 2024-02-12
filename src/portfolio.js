@@ -46,10 +46,18 @@ const skillsSection = {
   title: "What I do",
   subTitle: "iOS 개발을 마스터하고 싶은 개발자",
   skills: [
-    emoji("⚡ iOS 개발을 수행할 수 있으며, 함수형 프로그래밍과 객체 지향에 대해서 이해하고 있습니다."),
-    emoji("⚡ UIKit을 통해서 복잡한 UI를 작성할 수 있습니다. 선언형 UI에 대해서 이해하고 있으며, SwiftUI로 UI를 작성할 수 있습니다."),
-    emoji("⚡ 알고리즘 문제를 해결할 수 있으며, 통계 및 데이터 전처리를 위한 라이브러리를 활용할 수 있습니다."),
-    emoji("⚡ 소스코드 버전 관리 및 협업을 수행할 수 있으며, Github-Actions의 기초를 알고 있습니다.")
+    emoji(
+      "⚡ iOS 개발을 수행할 수 있으며, 함수형 프로그래밍과 객체 지향에 대해서 이해하고 있습니다."
+    ),
+    emoji(
+      "⚡ UIKit을 통해서 복잡한 UI를 작성할 수 있습니다. 선언형 UI에 대해서 이해하고 있으며, SwiftUI로 UI를 작성할 수 있습니다."
+    ),
+    emoji(
+      "⚡ 알고리즘 문제를 해결할 수 있으며, 통계 및 데이터 전처리를 위한 라이브러리를 활용할 수 있습니다."
+    ),
+    emoji(
+      "⚡ 소스코드 버전 관리 및 협업을 수행할 수 있으며, Github-Actions의 기초를 알고 있습니다."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -161,7 +169,7 @@ const bigProjects = {
         {
           name: "AppStore",
           url: "https://apps.apple.com/kr/app/igomoney/id6467229873"
-        },
+        }
         //  you can add extra buttons here.
       ]
     },
@@ -177,7 +185,7 @@ const bigProjects = {
         {
           name: "AppStore",
           url: "https://apps.apple.com/app/%ED%8C%AC%ED%8C%94/id6450774849"
-        },
+        }
       ]
     },
     {
@@ -192,7 +200,7 @@ const bigProjects = {
         {
           name: "AppStore",
           url: "https://apps.apple.com/kr/app/moda-%EC%95%84%EC%B9%A8%EC%97%90-%EC%93%B0%EB%8A%94-%EC%9D%BC%EA%B8%B0/id6450464553"
-        },
+        }
       ]
     }
   ],
@@ -208,7 +216,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "창업 경진 대회 장려상 수상",
-      subtitle: "교내 창업 경진 대회에서 앱개발을 활용하여 장려상을 수상하였습니다.",
+      subtitle:
+        "교내 창업 경진 대회에서 앱개발을 활용하여 장려상을 수상하였습니다.",
       image: require("./assets/images/cert.jpg"),
       imageAlt: "",
       footerLink: [
@@ -219,7 +228,7 @@ const achievementSection = {
           name: "오른쪽 아래 3번째"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -245,7 +254,8 @@ const blogSection = {
     {
       url: "https://devmin97.tistory.com/entry/iOS-%EC%83%81%EB%8B%A8-%ED%83%AD%EB%B0%94-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0",
       title: "상단 탭바 구성하기",
-      description: "프로젝트 수행하면서 만나게 된 복잡한 UI를 구성하는 방법을 공유"
+      description:
+        "프로젝트 수행하면서 만나게 된 복잡한 UI를 구성하는 방법을 공유"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -273,7 +283,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:"",
+  subtitle: "",
   number: "+82 010-8899-2306",
   email_address: "cow970814@kakao.com"
 };
