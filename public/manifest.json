@@ -1,6 +1,6 @@
 {
-  "short_name": "DeveloperFolio",
-  "name": "DeveloperFolio",
+  "short_name": "이경민",
+  "name": "이경민",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "384x384"
     }
   ],
-  "start_url": ".",
+  "start_url": "portpolio",
   "display": "standalone",
   "theme_color": "#6c63ff",
   "background_color": "#ffffff"
